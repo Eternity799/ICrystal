@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+data/full_dataset/
+.venv/
+.idea/
