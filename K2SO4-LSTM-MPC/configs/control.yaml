@@ -1,0 +1,56 @@
+model_run: ../assets/model
+output_root: ../outputs
+device: auto
+command_margins:
+  enabled: false
+  temperature_c: 0.4
+  rate_c_min: 0.18
+case: nominal
+target:
+  d50_um: 897.7452105387908
+  yield_fraction: 0.40866955069861344
+  span_upper: 0.72
+constraints:
+  min_temperature_c: 20.0
+  max_temperature_c: 60.0
+  min_rate_c_min: -0.5
+  max_rate_c_min: 0.2
+  supersaturation_floor: 0.99
+normalization:
+  d50_um: 5.0
+  yield_fraction: 0.0005
+  span: 0.01
+  rate_c_min: 0.2
+  rate_change_c_min: 0.1
+weights:
+  d50_terminal: 8.0
+  yield_terminal: 0.01
+  span_terminal: 2.0
+  move: 0.1
+  smooth: 0.5
+  training_domain: 25.0
+  span_excess: 10.0
+solver:
+  max_seconds: 30.0
+  max_iter: 50
+  finite_difference_step: 0.001
+noise:
+  seed: 20260911
+  temperature_std_c: 0.1
+  concentration_relative_std: 0.005
+  process_temperature_std_c: 0.2
+  process_rho: 0.9
+  growth_factor: 0.8
+  nucleation_factor: 1.2
+empirical_nodes:
+- - 0
+  - 60
+- - 10
+  - 57.77777777777778
+- - 60
+  - 52
+- - 120
+  - 38
+- - 180
+  - 20
+objective: d50_span_priority_v1

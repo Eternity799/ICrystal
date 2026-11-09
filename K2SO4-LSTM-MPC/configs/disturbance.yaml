@@ -1,0 +1,7 @@
+seed: 20261020
+temperature_limit_c: 1.0
+process_rho: 0.9
+measurement_temperature_std_c: 0.1
+measurement_concentration_relative_std: 0.005
+minimum_kinetic_factor: 0.55
+maximum_kinetic_factor: 1.45

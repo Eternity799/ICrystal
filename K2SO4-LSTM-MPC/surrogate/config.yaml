@@ -1,0 +1,110 @@
+schema_version: 1
+seed: 20261009
+dataset: ../data/full_dataset
+output_root: ../outputs/training
+device: auto
+model:
+  history: 10
+  hidden: 128
+  embedding: 128
+  direct_width: 128
+  head_width: 256
+  solubility:
+  - 0.0629
+  - 0.00246
+  - -7.14e-06
+  init_logit: 7.0
+loss:
+  number: 1.0
+  mass: 1.0
+  log: 0.2
+  change_scaled: 0.05
+  concentration: 0.2
+  inventory: 10.0
+response:
+  weight: 0.2
+  groups_per_update: 2
+  number_floor: 0.0001
+  mass_floor: 0.0001
+selection:
+  horizons:
+  - 1
+  - 3
+  - 10
+  origins:
+  - 0
+  - 10
+  - 30
+  - 60
+  - 90
+  - 120
+  - 150
+  - 170
+  response_weight: 0.2
+sampling:
+  batch_size: 32
+  time_edges:
+  - 0
+  - 10
+  - 60
+  - 120
+  - 180
+  grad_clip: 5.0
+  weight_decay: 1.0e-06
+profiles:
+  smoke:
+    min_train_parents: 3
+    min_validation_parents: 3
+    stages:
+    - horizon: 1
+      epochs: 1
+      updates_per_epoch: 2
+      lr: 0.001
+    - horizon: 3
+      epochs: 1
+      updates_per_epoch: 2
+      lr: 0.0005
+  learn:
+    min_train_parents: 3
+    min_validation_parents: 3
+    stages:
+    - horizon: 1
+      epochs: 15
+      updates_per_epoch: 25
+      lr: 0.001
+    - horizon: 3
+      epochs: 20
+      updates_per_epoch: 25
+      lr: 0.0005
+    - horizon: 10
+      epochs: 20
+      updates_per_epoch: 25
+      lr: 0.0002
+  formal:
+    min_train_parents: 30
+    min_validation_parents: 9
+    stages:
+    - horizon: 1
+      epochs: 40
+      updates_per_epoch: 200
+      lr: 0.001
+    - horizon: 3
+      epochs: 60
+      updates_per_epoch: 200
+      lr: 0.0005
+    - horizon: 10
+      epochs: 80
+      updates_per_epoch: 200
+      lr: 0.0002
+evaluation:
+  origins:
+  - 0
+  - 10
+  - 60
+  - 120
+  response_horizons:
+  - 1
+  - 3
+  - 10
+  direction_d50_tolerance: 1.0e-06
+  direction_span_tolerance: 1.0e-08

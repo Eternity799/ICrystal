@@ -1,0 +1,11 @@
+{
+  "python": "3.11.13",
+  "numpy": "1.26.4",
+  "scipy": "1.11.4",
+  "pytorch": "2.8.0+cu126",
+  "pyyaml": "6.0.3",
+  "matplotlib": "3.10.6",
+  "verification_device": "CPU",
+  "cuda_available": true,
+  "note": "Versions used for CPU verification. CUDA performance was not benchmarked."
+}

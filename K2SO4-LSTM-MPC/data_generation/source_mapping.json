@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "dataset.py",
+      "original_source": "control-paper-experiments/full_csd_resnet/dataset.py",
+      "original_sha256": "e871db658db5057ae68836ef2de52226f69de297e23fee270df0db5d91f0b750",
+      "exported_sha256": "e60d714acf9f5f435aa48301715e2af728aecd2bf01c66203747e2286078942c",
+      "changes": "English explanatory literals and status/report names; package-safe sibling imports. Numerical formulas and sampling rules retained."
+    },
+    {
+      "path": "dataset_design.py",
+      "original_source": "control-paper-experiments/full_csd_resnet/dataset_design.py",
+      "original_sha256": "0fdce7b703c5161f8367e315ba12fce1707413ea6d30bdda22fd45c8056b22a3",
+      "exported_sha256": "cbb3114de7dbe1c1ef47dd4d50685088af91c7a288a8f778aada963bc4d4f290",
+      "changes": "English explanatory literals and status/report names; package-safe sibling imports. Numerical formulas and sampling rules retained."
+    },
+    {
+      "path": "dataset_quality.py",
+      "original_source": "control-paper-experiments/full_csd_resnet/dataset_quality.py",
+      "original_sha256": "ddc5a46768ac530824a402c5b321e01e76eaffe7e98e4d7d790062a71679230f",
+      "exported_sha256": "43cb254ef93c72271b2d759cef269338dc5837fd0d1a504565f961a1fdf255d6",
+      "changes": "English explanatory literals and status/report names; package-safe sibling imports. Numerical formulas and sampling rules retained."
+    },
+    {
+      "path": "generate_dataset.py",
+      "original_source": "control-paper-experiments/full_csd_resnet/generate_dataset.py",
+      "original_sha256": "4d5e55b00e4f286163e5f21c9749cdb1133fab140ff28f36fda32b25e04138f1",
+      "exported_sha256": "8816662b1489e584ac3eb06453a92baf365bc715765f234b51962fd6eb918dd4",
+      "changes": "English explanatory literals and status/report names; package-safe sibling imports. Numerical formulas and sampling rules retained."
+    },
+    {
+      "path": "dataset.yaml",
+      "original_source": "control-paper-experiments/full_csd_resnet/dataset.yaml",
+      "original_sha256": "0f6f4169400ad7a6f55dd991b6fd9ff390e982a51760ae7cf18f7ca8c06cf0e8",
+      "exported_sha256": "9954ccd224b0c5656cac703492b162ace40eccdfa42d9ed6ccfc709362764f22",
+      "changes": "Comments removed; only three relative filesystem paths relocated."
+    }
+  ]
+}

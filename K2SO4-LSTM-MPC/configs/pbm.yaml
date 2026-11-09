@@ -1,0 +1,59 @@
+provenance:
+  kinetics_reference: Bari and Pandit (2018), DOI 10.1021/acs.iecr.7b03995
+  model_note: Literature kinetics with a seeded 0.8 L project initial condition
+vessel:
+  slurry_volume_l: 0.8
+  solution_density_kg_m3: 1100.0
+  crystal_density_kg_m3: 2660.0
+  volume_shape_factor: 1.0
+seed:
+  mass_fraction_of_dissolved: 0.01
+  d50_um: 100.0
+  sigma_g: 1.25
+  min_um: 20.0
+  max_um: 300.0
+grid:
+  bins: 200
+  min_um: 1.0
+  max_um: 2000.0
+  nucleus_size_um: 1.0
+kinetics:
+  kn1: 24000000000000.0
+  a1: 6.5
+  kn2: 11400000000000.0
+  a2: 2.25
+  kg_m_s: 1.54e-05
+  g: 1.15
+  breakage_a: 8.55
+  breakage_m: 0.493
+  agglomeration_kernel: 5.71e-09
+  kd_m_s: 3.08e-05
+  dissolution_order: 1.15
+batch:
+  start_temperature_c: 60.0
+  end_temperature_c: 20.0
+  nominal_cooling_rate_c_min: 0.25
+  hold_minutes: 20.0
+  total_minutes: 180.0
+  sample_seconds: 60.0
+dataset:
+  debug_trajectories: 20
+  formal_trajectories: 1000
+  random_seed: 20260820
+  min_temperature_c: 20.0
+  max_temperature_c: 60.0
+  min_rate_c_min: -0.5
+  max_rate_c_min: 0.2
+  supersaturation_floor: 0.95
+  seed_d50_min_um: 75.0
+  seed_d50_max_um: 150.0
+  seed_sigma_g_min: 1.15
+  seed_sigma_g_max: 1.4
+  seed_mass_fraction_min: 0.005
+  seed_mass_fraction_max: 0.02
+numerical:
+  max_internal_step_s: 60.0
+  mechanism_coupling_substep_s: 1.0
+  max_fractional_death: 0.1
+  mass_tolerance_relative: 0.005
+  breakage_quadrature_points: 64

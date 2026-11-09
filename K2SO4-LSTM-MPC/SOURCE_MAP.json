@@ -1,0 +1,281 @@
+{
+  "files": [
+    {
+      "release_path": "physics/__init__.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/__init__.py",
+      "original_sha256": "eaa83cdc8de055cde7b2e0abc45715e280185f2cc3fbf44723284f3e6a5778dd",
+      "release_sha256": "81bbf16c9da65ab1822e878eaa1de0be176f945dbda5d7ae759d0d14aefd9378"
+    },
+    {
+      "release_path": "physics/config.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/config.py",
+      "original_sha256": "7d486a4ddf66043647f33576adc4ff5be83d2f366400c018051395986d334f3c",
+      "release_sha256": "9c302b3af18d166686684edefe13b871965196237f326bd3cc802276b6783273"
+    },
+    {
+      "release_path": "physics/grid.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/grid.py",
+      "original_sha256": "3e06538acf5af2064426b6d6f45c3b5f6815c15d970077e58970e9084a23aa84",
+      "release_sha256": "fc1956b2f765954e735f506d0908dfe828f656b488b18dfe2c642633b321e50a"
+    },
+    {
+      "release_path": "physics/kinetics.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/kinetics.py",
+      "original_sha256": "0929b725287c34dda44a06ce7ba2b1a37cf31b6e0cc5951aeb85acb815e712bf",
+      "release_sha256": "b088bb0939e8f0920c6d47ac6f6476b8579fcc231c0e059266539a36de68aa14"
+    },
+    {
+      "release_path": "physics/population.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/population.py",
+      "original_sha256": "157dab7a8d482ba39f920b68d30d52b1973e653b481059cae146a2f6a7262377",
+      "release_sha256": "78288dda574d4c7c8603e367a20dd47b21856370e55ef92ba2f4bd684a122da0"
+    },
+    {
+      "release_path": "physics/profiles.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/profiles.py",
+      "original_sha256": "355e73c7e8e39817898599522790d44fbb2a3905c02f28bd58f737e0f84e6922",
+      "release_sha256": "5a1e92526928f0842021d84a6bdc2d0d6711d35d9d00d6d22541557d65aa39b9"
+    },
+    {
+      "release_path": "physics/simulation.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/simulation.py",
+      "original_sha256": "07a81b826e34881472a70c75d7dd142b14c33f82f00f789908667a934be9b382",
+      "release_sha256": "ad68bc5aab643627b0b81ae409dffd6bed6f71cc77e758f90080a0a2c355f8a0"
+    },
+    {
+      "release_path": "physics/metrics.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/metrics.py",
+      "original_sha256": "a9b8bce6255ddef5ae0f1f01a1bd4ca4fa4166e213e531eaa4bbe625ad0057d6",
+      "release_sha256": "fbc8c731fbcc9bf5d52395cdb90c1d6480534d02c89a5f2723c47d83e95b4882"
+    },
+    {
+      "release_path": "control/controller.py",
+      "original_source": "control-paper-experiments/quality_priority/core/controller.py",
+      "original_sha256": "b6c1f62b7c437ef1a12d4e9d250a6a79d5354ae3d2b390a0ce389cd3ac775e14",
+      "release_sha256": "821013593cda963be023204001992cd43cdde4269fba1b2d2ea3825c06bf8b02"
+    },
+    {
+      "release_path": "control/objective.py",
+      "original_source": "control-paper-experiments/quality_priority/core/objective.py",
+      "original_sha256": "80140ad4222ccdb0f2898ecd2d6a141e9374c11da697c4866366392ddc8cd7ec",
+      "release_sha256": "29215826dd21f35246d20b6e3b7c44f5a032fdd4e86ee14d8ee6647dce6ada41"
+    },
+    {
+      "release_path": "control/control_helpers.py",
+      "original_source": "control-paper-experiments/quality_priority/core/control_helpers.py",
+      "original_sha256": "44c199137ac036c2e78d25c99793008fc49005f5428884a21cee413560a2e5f4",
+      "release_sha256": "44c199137ac036c2e78d25c99793008fc49005f5428884a21cee413560a2e5f4"
+    },
+    {
+      "release_path": "control/disturbances.py",
+      "original_source": "control-paper-experiments/quality_priority/core/disturbances.py",
+      "original_sha256": "31e357b7e9d7466a824b9519ba6a36e50bf1514ed93db942c608c5b60deb6859",
+      "release_sha256": "9c8018346d179ff6250b82da3e7fa947dcb0ad84c7b65ef450ae47b9f913c6aa"
+    },
+    {
+      "release_path": "control/offline.py",
+      "original_source": "control-paper-experiments/quality_priority/offline_baseline/offline_runtime.py",
+      "original_sha256": "d21109e09b39d77514c513382dbbd69ee53079645b007f7297d02b10273bc5c5",
+      "release_sha256": "e9bc276c2ed8b5d7bebd85a791533866ab9ffd96c0f6681fb1e393f12b40a4e8"
+    },
+    {
+      "release_path": "surrogate/core/config.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/config.py",
+      "original_sha256": "150be1e50ef931a99f8f7c5c362c6e2900a122a9c02a7b87838b8927232742f7",
+      "release_sha256": "9eca152c0434ae883258f00999182ec9caf4e6210384fe905bf1d328e773be25"
+    },
+    {
+      "release_path": "surrogate/core/data.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/data.py",
+      "original_sha256": "500f3052fd86d0aed4b2a5e38b29dccb815d771e5c1910ff912bab1f5e222b18",
+      "release_sha256": "c49004de0776cc5613deacd8f986d26afcd07698cb373987d9f0cb3581c5ac4e"
+    },
+    {
+      "release_path": "surrogate/core/evaluation.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/evaluation.py",
+      "original_sha256": "0ed1a24652212ea3987cb3d5ae2fa5789185a60c790595eed94e1e0bca6ecf8a",
+      "release_sha256": "bbf799abaaeaff65984c0fc879efcf22db14bfae950d2e137793847f6bb5366a"
+    },
+    {
+      "release_path": "surrogate/core/features.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/features.py",
+      "original_sha256": "b3b93b95ed99c09d4779aca0f4432b1f8ecfb0a326da0ef83e829caeb106cbc5",
+      "release_sha256": "ceedc50e414ceae11faeb883d94d68d3d1bdc85fe03a940f6c1268d5ab088546"
+    },
+    {
+      "release_path": "surrogate/core/inference.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/inference.py",
+      "original_sha256": "315180daa784ca08062c53aef6cce8d21b5cb7391f458b4fcf5d943d594f2d0f",
+      "release_sha256": "541022cc4d129ba72ed3258332278462de66ff20f7f573d90c7f317ec6ce04d1"
+    },
+    {
+      "release_path": "surrogate/core/io.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/io.py",
+      "original_sha256": "46e2d0d8b159c9b8a06cf89fd0342557487430b05ea6dd0210302f6aa61067cf",
+      "release_sha256": "b51ccb71a575f8c4ff636cbf1de397090bc7d9d5f78721bcc3832891361191ba"
+    },
+    {
+      "release_path": "surrogate/core/losses.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/losses.py",
+      "original_sha256": "8f29ef69f336099c7a356cc1a1c520bd2b338978fd6a29bcc7567f1e5322eaae",
+      "release_sha256": "7ab20f4a849f49a3fe45403a13f190f4872978a96cc0b858f320b9f7fbd2342d"
+    },
+    {
+      "release_path": "surrogate/core/model.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/model.py",
+      "original_sha256": "52e52c89c13eee665916a8145a34e2cbc6d6f735b6f89ead8871508901aaac3e",
+      "release_sha256": "c610886690e049d9f09634dfc5a62838746acc5cc98e61a2f21c8d2687509a25"
+    },
+    {
+      "release_path": "surrogate/core/plotting.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/plotting.py",
+      "original_sha256": "106cb51a08af6ba20f4b16bb9381dfa7abe609d23bfe514389146958514174fe",
+      "release_sha256": "30129baf903577ec628651987422f6effb1562388468fe9faaea3d9ea1c814dd"
+    },
+    {
+      "release_path": "surrogate/core/training.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/training.py",
+      "original_sha256": "bbce7d3baf75b889be323e5a3e45ad4c60a89f76ae6055a478c67f8983575b4f",
+      "release_sha256": "ba0acb6e3301319b3700d9bc516ca17353b2ac888706cb3e0732e440209ffac3"
+    },
+    {
+      "release_path": "surrogate/core/__init__.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/__init__.py",
+      "original_sha256": "07d37a06e25490f51a70268853f2ebb4bd17ea033c4fa32435ad423fa7a5003f",
+      "release_sha256": "39580887605265789fd07ad11677ef9bca84671ce95e7b0a00ca8785d552bd24"
+    },
+    {
+      "release_path": "surrogate/core/mpc/config.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/mpc/config.py",
+      "original_sha256": "1d0ef7c92fdc1d4176a159680a3bbfdde8a7cf6156927abe3e545bc31a8afb1e",
+      "release_sha256": "aec748661d35301c4708f90f01860253be2db160d52b8c178d2952b9006a40fe"
+    },
+    {
+      "release_path": "surrogate/core/mpc/data.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/mpc/data.py",
+      "original_sha256": "dfda8a4f89bb338e2f395968a2642eebfee5a46f982de7fb645eebcdb905dae3",
+      "release_sha256": "c30e17cf827015dcf3866114dc462dae11911dffa289dd0aa3c41a3a966007cf"
+    },
+    {
+      "release_path": "surrogate/core/mpc/evaluation.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/mpc/evaluation.py",
+      "original_sha256": "0ed4b90ebb3aa8cfd3013b6218fda076b56a359c34d1c3393b164f3bfdf20ba3",
+      "release_sha256": "0b7a7717620cbe04851584a3e6a8e18e4ab040f6845fe8645ac65d81bebb1f46"
+    },
+    {
+      "release_path": "surrogate/core/mpc/inference.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/mpc/inference.py",
+      "original_sha256": "2aa3dcab1dd7298dc39ca1d69bd23200e93ef39ed7c407ff89fb82003adb8255",
+      "release_sha256": "5e6572d1e2eedd8e744cca52512848a894e1f443a378175dcbcf84fdb1492aba"
+    },
+    {
+      "release_path": "surrogate/core/mpc/quality.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/mpc/quality.py",
+      "original_sha256": "08f51b5fad9006a4a4681b9cf0a23863aa14bf22e18ac165531faa6e7cf265af",
+      "release_sha256": "77b6a39563f34e84ac7c5658c2211f355266e0d5a92e8709bf67277f6c44fa14"
+    },
+    {
+      "release_path": "surrogate/core/mpc/ranking.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/mpc/ranking.py",
+      "original_sha256": "37b799f4a7d52d662ad542d3221f008731aaec9d3924dc7aaa16475df6d032ab",
+      "release_sha256": "aea37a9cc6bfbdcbc46b7f36c4e58cc568b96f588ecd702082a790bf0118de0a"
+    },
+    {
+      "release_path": "surrogate/core/mpc/reporting.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/mpc/reporting.py",
+      "original_sha256": "897651d1a7e10b90e69048f4f1d5f0b76301e0cace8f6a17cc03022c19315c0e",
+      "release_sha256": "e21de53e1cee87c7d3e9a30087bcf8fe04bc32a17beef6fd024b86b4969d507d"
+    },
+    {
+      "release_path": "surrogate/core/mpc/training.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/mpc/training.py",
+      "original_sha256": "1af949f97feeca00de4d708e9a97814c4f3acf50e5fa3f4be433a434dd02bac1",
+      "release_sha256": "a0d92d39177bc3d69987da3d411a7bee7245e5042c10b7d64861350895077828"
+    },
+    {
+      "release_path": "surrogate/core/mpc/__init__.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/core/mpc/__init__.py",
+      "original_sha256": "797ce4caf9a050207a906e302f65f264d81aaca0d8fdb04092da507c07278fbb",
+      "release_sha256": "fabe5aa72ee60f265dbe110a62da8c1e56d69921239d33ffa248539e778da4b5"
+    },
+    {
+      "release_path": "surrogate/continuation/config.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/continuation/config.py",
+      "original_sha256": "46e32f8820092c81c1840fee1adfa7c10c9d4e8d87d1cda6e616b5f23262eff7",
+      "release_sha256": "4824f1598fd4f08a23512f0782ba4aaec55b8d56f4c9a91e0b29b4c18f840730"
+    },
+    {
+      "release_path": "surrogate/continuation/training.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/continuation/training.py",
+      "original_sha256": "f4f25efb6050811d3024c60d291762d655eca1f1cd6cc70bfc5bced91fe330d9",
+      "release_sha256": "09ddd00444a4ea0c03932d0cc28e7cc374bc4f26a404ca29505770d647d8b9c3"
+    },
+    {
+      "release_path": "surrogate/continuation/__init__.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/continuation/__init__.py",
+      "original_sha256": "f0bbbafbdf7daeccd4c249fda013dc19aceba8034a4d5529f27ee2674de58036",
+      "release_sha256": "7b53c49d10483d691edf9e9bec28cc8864289b1b2f2a1794e7d2438aaf4750f9"
+    },
+    {
+      "release_path": "surrogate/train.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/train.py",
+      "original_sha256": "5d9a70959defc87b7a5f3c633e3a74523bb95245a0d55fc607408ec9199470ab",
+      "release_sha256": "f7086fb4618afb6cb8f7c88d7faa95209c48ccdfd46898865303ffa2485cb35c"
+    },
+    {
+      "release_path": "surrogate/evaluate.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/evaluate.py",
+      "original_sha256": "61c5f5b75f604569aeeb1b3f0d02986574b77dfeaf77c792114211c36f212592",
+      "release_sha256": "33f9a70be2badbb78a8a3b7f88e4ec6299c454b8d7fc5fd89aabd8c6b4175b1f"
+    },
+    {
+      "release_path": "surrogate/train_mpc.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/train_mpc.py",
+      "original_sha256": "9d2c4da5af2cd3f008515cb2af1ddc0ab564a14d5b2b569aaeeda6b05af71014",
+      "release_sha256": "088005cc3203efb5ab274cc6355ebade54f8709380e13963f0d4789e1aeed574"
+    },
+    {
+      "release_path": "surrogate/evaluate_mpc.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/evaluate_mpc.py",
+      "original_sha256": "ac5dca64d0a089c564f65f1337cc3ecab5c92badcf3cb88f5994aff785d2eddc",
+      "release_sha256": "e6af6345b71ba9c5579bb127c0ec7818af55d9d3701aaf7a4c8e4edf8c84725a"
+    },
+    {
+      "release_path": "surrogate/continue_mpc.py",
+      "original_source": "control-paper-experiments/full_csd_surrogate/continue_mpc.py",
+      "original_sha256": "c178ae491c13e99d126d85f09d67765d6a5c7513c892d8fbf5f7090ea0a19984",
+      "release_sha256": "8fb039a1b37b3ca88c37f9ba616fd59992c1c8a3a6383651b80560c43d8a9519"
+    },
+    {
+      "release_path": "data_generation/dataset.py",
+      "original_source": "control-paper-experiments/full_csd_resnet/dataset.py",
+      "original_sha256": "e871db658db5057ae68836ef2de52226f69de297e23fee270df0db5d91f0b750",
+      "release_sha256": "e868491fa137420620b99957695a8594cbcc10ca314993c7f7f5a1f0cab2a5bc"
+    },
+    {
+      "release_path": "data_generation/dataset_design.py",
+      "original_source": "control-paper-experiments/full_csd_resnet/dataset_design.py",
+      "original_sha256": "0fdce7b703c5161f8367e315ba12fce1707413ea6d30bdda22fd45c8056b22a3",
+      "release_sha256": "b8116c31bbb582b816a01cd9b1cdf048051af7720dd7a6f9753009b2c30c9cf0"
+    },
+    {
+      "release_path": "data_generation/dataset_quality.py",
+      "original_source": "control-paper-experiments/full_csd_resnet/dataset_quality.py",
+      "original_sha256": "ddc5a46768ac530824a402c5b321e01e76eaffe7e98e4d7d790062a71679230f",
+      "release_sha256": "11b8830c6d686ccc2e3008c017d7977778ca712909ba0103afc9678838d2d497"
+    },
+    {
+      "release_path": "data_generation/generate_dataset.py",
+      "original_source": "control-paper-experiments/full_csd_resnet/generate_dataset.py",
+      "original_sha256": "4d5e55b00e4f286163e5f21c9749cdb1133fab140ff28f36fda32b25e04138f1",
+      "release_sha256": "fc1ebbf911ef8759676c3843b6287450d33d997930a5f6bad2a89690c5fc8cab"
+    },
+    {
+      "release_path": "data_generation/dataset.yaml",
+      "original_source": "control-paper-experiments/full_csd_resnet/dataset.yaml",
+      "original_sha256": "0f6f4169400ad7a6f55dd991b6fd9ff390e982a51760ae7cf18f7ca8c06cf0e8",
+      "release_sha256": "9954ccd224b0c5656cac703492b162ace40eccdfa42d9ed6ccfc709362764f22"
+    }
+  ],
+  "original_sources_unchanged": true
+}

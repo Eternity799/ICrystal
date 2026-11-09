@@ -1,0 +1,29 @@
+schema_version: 1
+parent_run: ../outputs/training/formal/parent/replay_csd
+checkpoint: best
+output_root: ../outputs/training
+seed: 20261015
+device: auto
+profiles:
+  smoke:
+    epochs: 2
+    updates_per_epoch: 1
+    horizon: 3
+    batch_size: 2
+    train_per_family: 1
+    validation_per_family: 1
+    development_per_family: 1
+    lr: 5.0e-05
+    every_epochs: 1
+    full_every_epochs: 2
+  formal:
+    epochs: 20
+    updates_per_epoch: 50
+    horizon: 30
+    batch_size: 32
+    train_per_family: 0
+    validation_per_family: 0
+    development_per_family: 0
+    lr: 5.0e-05
+    every_epochs: 2
+    full_every_epochs: 5

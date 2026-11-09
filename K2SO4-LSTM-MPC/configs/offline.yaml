@@ -1,0 +1,20 @@
+control_config: control.yaml
+output_root: ../outputs/offline
+node_minutes:
+- 10
+- 30
+- 60
+- 90
+- 120
+- 150
+- 180
+starts:
+- linear
+- empirical
+- fast_slow
+solver:
+  max_evaluations: 300
+  max_seconds: 14400
+  max_iter_per_start: 50
+  finite_difference_c: 0.05
+  ftol: 1.0e-06

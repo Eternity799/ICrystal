@@ -1,0 +1,39 @@
+{
+  "physical_config": {
+    "source": "control-paper-experiments/full_csd_resnet/datasets/formal/20261009_134814_919443_utc/pbm_config_snapshot.yaml",
+    "sha256": "c5e6018d886ebd1d402b4d913ae33675738e9406c6d47298ab0038dbba69de84"
+  },
+  "control_config": {
+    "source": "control-paper-experiments/quality_priority/control_d50_w8.yaml",
+    "sha256": "3fd254750a4567a53833a5b3d9c3f4044a4cd75efd395d8ed1462767d87257cf"
+  },
+  "dataset_manifest_sha256": "527bd88225cb18fd81064290f6756e0cc380073e9df9bf42a863ce01cd121481",
+  "baselines": {
+    "main": {
+      "source": "control-paper-experiments/quality_priority/offline_baseline/results_d50_w8/20260924_090216_803676_utc",
+      "files": {
+        "manifest.json": "76766c90bc132b3b279a50fe738e4ffbec4394e448898cedfb2b2530a54d0c04",
+        "candidate.npz": "da525759d3ac4eb41d317285b8dc3c742b88826fe148f5fd75f8513e63efc8cc",
+        "frozen_schedule.json": "68974e2310a0c8983cd238533bf7b9af9be66ef336f2751cc184fc633a2340b6",
+        "candidate_summary.json": "0e7834fb03bae59a49faa9df0e1450bfd6590d93d63abd9b92edd230663674a4"
+      }
+    },
+    "target700": {
+      "source": "control-paper-experiments/full_csd_surrogate/control_validation/target_700/b3_results/20261019_125818_774518_utc",
+      "files": {
+        "manifest.json": "9b34af81379c0f771295cc524f651c3a7bec1db213fa78ad20c4e9bdc9cef29d",
+        "candidate.npz": "9b3c39097dc3192530e39ac2b4fe81d4033c9573e58b143732aae76525ff4061",
+        "frozen_schedule.json": "64ce66e170e7e71956c071bd95499f9378523e58afa484cfb9a920cbf1d20424",
+        "candidate_summary.json": "dc73fe4780166df5eed1ad70dd2749f63113444724a383cb4d129554d2e4b647"
+      }
+    }
+  },
+  "example": {
+    "parent_id": "piecewise_train_00000",
+    "original_role": "train",
+    "origin_min": 10,
+    "horizon_steps": 3,
+    "source_sha256": "c2053c7fd3094dcf3d5dace1ee158aa77dc0d638ceebefc6ab9d7e357db27bf0",
+    "purpose": "real training-role example for bounded interface/parity checks; not independent validation"
+  }
+}

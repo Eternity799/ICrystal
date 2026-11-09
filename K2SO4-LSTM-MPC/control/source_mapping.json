@@ -1,0 +1,82 @@
+{
+  "files": [
+    {
+      "release_path": "physics/__init__.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/__init__.py",
+      "original_sha256": "eaa83cdc8de055cde7b2e0abc45715e280185f2cc3fbf44723284f3e6a5778dd",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "physics/config.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/config.py",
+      "original_sha256": "7d486a4ddf66043647f33576adc4ff5be83d2f366400c018051395986d334f3c",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "physics/grid.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/grid.py",
+      "original_sha256": "3e06538acf5af2064426b6d6f45c3b5f6815c15d970077e58970e9084a23aa84",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "physics/kinetics.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/kinetics.py",
+      "original_sha256": "0929b725287c34dda44a06ce7ba2b1a37cf31b6e0cc5951aeb85acb815e712bf",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "physics/population.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/population.py",
+      "original_sha256": "157dab7a8d482ba39f920b68d30d52b1973e653b481059cae146a2f6a7262377",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "physics/profiles.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/profiles.py",
+      "original_sha256": "355e73c7e8e39817898599522790d44fbb2a3905c02f28bd58f737e0f84e6922",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "physics/simulation.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/simulation.py",
+      "original_sha256": "07a81b826e34881472a70c75d7dd142b14c33f82f00f789908667a934be9b382",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "physics/metrics.py",
+      "original_source": "control-paper-experiments/quality_priority/core/pbm/metrics.py",
+      "original_sha256": "a9b8bce6255ddef5ae0f1f01a1bd4ca4fa4166e213e531eaa4bbe625ad0057d6",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "control/controller.py",
+      "original_source": "control-paper-experiments/quality_priority/core/controller.py",
+      "original_sha256": "b6c1f62b7c437ef1a12d4e9d250a6a79d5354ae3d2b390a0ce389cd3ac775e14",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "control/objective.py",
+      "original_source": "control-paper-experiments/quality_priority/core/objective.py",
+      "original_sha256": "80140ad4222ccdb0f2898ecd2d6a141e9374c11da697c4866366392ddc8cd7ec",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "control/control_helpers.py",
+      "original_source": "control-paper-experiments/quality_priority/core/control_helpers.py",
+      "original_sha256": "44c199137ac036c2e78d25c99793008fc49005f5428884a21cee413560a2e5f4",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "control/disturbances.py",
+      "original_source": "control-paper-experiments/quality_priority/core/disturbances.py",
+      "original_sha256": "31e357b7e9d7466a824b9519ba6a36e50bf1514ed93db942c608c5b60deb6859",
+      "numerical_ast_identical": true
+    },
+    {
+      "release_path": "control/offline.py",
+      "original_source": "control-paper-experiments/quality_priority/offline_baseline/offline_runtime.py",
+      "original_sha256": "d21109e09b39d77514c513382dbbd69ee53079645b007f7297d02b10273bc5c5",
+      "changes": "Only local package import paths relocated."
+    }
+  ]
+}

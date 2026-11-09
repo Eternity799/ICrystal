@@ -1,0 +1,145 @@
+{
+  "scope": "English translation and portable paths; numerical kernels, sampling, losses and architecture preserved",
+  "files": [
+    {
+      "release_path": "core/config.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/config.py",
+      "original_sha256": "150be1e50ef931a99f8f7c5c362c6e2900a122a9c02a7b87838b8927232742f7"
+    },
+    {
+      "release_path": "core/data.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/data.py",
+      "original_sha256": "500f3052fd86d0aed4b2a5e38b29dccb815d771e5c1910ff912bab1f5e222b18"
+    },
+    {
+      "release_path": "core/evaluation.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/evaluation.py",
+      "original_sha256": "0ed1a24652212ea3987cb3d5ae2fa5789185a60c790595eed94e1e0bca6ecf8a"
+    },
+    {
+      "release_path": "core/features.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/features.py",
+      "original_sha256": "b3b93b95ed99c09d4779aca0f4432b1f8ecfb0a326da0ef83e829caeb106cbc5"
+    },
+    {
+      "release_path": "core/inference.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/inference.py",
+      "original_sha256": "315180daa784ca08062c53aef6cce8d21b5cb7391f458b4fcf5d943d594f2d0f"
+    },
+    {
+      "release_path": "core/io.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/io.py",
+      "original_sha256": "46e2d0d8b159c9b8a06cf89fd0342557487430b05ea6dd0210302f6aa61067cf"
+    },
+    {
+      "release_path": "core/losses.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/losses.py",
+      "original_sha256": "8f29ef69f336099c7a356cc1a1c520bd2b338978fd6a29bcc7567f1e5322eaae"
+    },
+    {
+      "release_path": "core/model.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/model.py",
+      "original_sha256": "52e52c89c13eee665916a8145a34e2cbc6d6f735b6f89ead8871508901aaac3e"
+    },
+    {
+      "release_path": "core/plotting.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/plotting.py",
+      "original_sha256": "106cb51a08af6ba20f4b16bb9381dfa7abe609d23bfe514389146958514174fe"
+    },
+    {
+      "release_path": "core/training.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/training.py",
+      "original_sha256": "bbce7d3baf75b889be323e5a3e45ad4c60a89f76ae6055a478c67f8983575b4f"
+    },
+    {
+      "release_path": "core/__init__.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/__init__.py",
+      "original_sha256": "07d37a06e25490f51a70268853f2ebb4bd17ea033c4fa32435ad423fa7a5003f"
+    },
+    {
+      "release_path": "core/mpc/config.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/mpc/config.py",
+      "original_sha256": "1d0ef7c92fdc1d4176a159680a3bbfdde8a7cf6156927abe3e545bc31a8afb1e"
+    },
+    {
+      "release_path": "core/mpc/data.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/mpc/data.py",
+      "original_sha256": "dfda8a4f89bb338e2f395968a2642eebfee5a46f982de7fb645eebcdb905dae3"
+    },
+    {
+      "release_path": "core/mpc/evaluation.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/mpc/evaluation.py",
+      "original_sha256": "0ed4b90ebb3aa8cfd3013b6218fda076b56a359c34d1c3393b164f3bfdf20ba3"
+    },
+    {
+      "release_path": "core/mpc/inference.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/mpc/inference.py",
+      "original_sha256": "2aa3dcab1dd7298dc39ca1d69bd23200e93ef39ed7c407ff89fb82003adb8255"
+    },
+    {
+      "release_path": "core/mpc/quality.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/mpc/quality.py",
+      "original_sha256": "08f51b5fad9006a4a4681b9cf0a23863aa14bf22e18ac165531faa6e7cf265af"
+    },
+    {
+      "release_path": "core/mpc/ranking.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/mpc/ranking.py",
+      "original_sha256": "37b799f4a7d52d662ad542d3221f008731aaec9d3924dc7aaa16475df6d032ab"
+    },
+    {
+      "release_path": "core/mpc/reporting.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/mpc/reporting.py",
+      "original_sha256": "897651d1a7e10b90e69048f4f1d5f0b76301e0cace8f6a17cc03022c19315c0e"
+    },
+    {
+      "release_path": "core/mpc/training.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/mpc/training.py",
+      "original_sha256": "1af949f97feeca00de4d708e9a97814c4f3acf50e5fa3f4be433a434dd02bac1"
+    },
+    {
+      "release_path": "core/mpc/__init__.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/core/mpc/__init__.py",
+      "original_sha256": "797ce4caf9a050207a906e302f65f264d81aaca0d8fdb04092da507c07278fbb"
+    },
+    {
+      "release_path": "continuation/config.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/continuation/config.py",
+      "original_sha256": "46e32f8820092c81c1840fee1adfa7c10c9d4e8d87d1cda6e616b5f23262eff7"
+    },
+    {
+      "release_path": "continuation/training.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/continuation/training.py",
+      "original_sha256": "f4f25efb6050811d3024c60d291762d655eca1f1cd6cc70bfc5bced91fe330d9"
+    },
+    {
+      "release_path": "continuation/__init__.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/continuation/__init__.py",
+      "original_sha256": "f0bbbafbdf7daeccd4c249fda013dc19aceba8034a4d5529f27ee2674de58036"
+    },
+    {
+      "release_path": "train.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/train.py",
+      "original_sha256": "5d9a70959defc87b7a5f3c633e3a74523bb95245a0d55fc607408ec9199470ab"
+    },
+    {
+      "release_path": "evaluate.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/evaluate.py",
+      "original_sha256": "61c5f5b75f604569aeeb1b3f0d02986574b77dfeaf77c792114211c36f212592"
+    },
+    {
+      "release_path": "train_mpc.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/train_mpc.py",
+      "original_sha256": "9d2c4da5af2cd3f008515cb2af1ddc0ab564a14d5b2b569aaeeda6b05af71014"
+    },
+    {
+      "release_path": "evaluate_mpc.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/evaluate_mpc.py",
+      "original_sha256": "ac5dca64d0a089c564f65f1337cc3ecab5c92badcf3cb88f5994aff785d2eddc"
+    },
+    {
+      "release_path": "continue_mpc.py",
+      "original_path": "control-paper-experiments/full_csd_surrogate/continue_mpc.py",
+      "original_sha256": "c178ae491c13e99d126d85f09d67765d6a5c7513c892d8fbf5f7090ea0a19984"
+    }
+  ]
+}

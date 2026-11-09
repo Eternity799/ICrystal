@@ -1,0 +1,83 @@
+{
+  "label": "main",
+  "optimized_on": "nominal PBM only",
+  "optimality": "best found within the recorded search budget; no global optimality claim",
+  "control": {
+    "objective": "d50_span_priority_v1",
+    "target": {
+      "d50_um": 897.7452105387908,
+      "yield_fraction": 0.40866955069861344,
+      "span_upper": 0.72
+    },
+    "constraints": {
+      "min_temperature_c": 20.0,
+      "max_temperature_c": 60.0,
+      "min_rate_c_min": -0.5,
+      "max_rate_c_min": 0.2,
+      "supersaturation_floor": 0.99
+    },
+    "normalization": {
+      "d50_um": 5.0,
+      "yield_fraction": 0.0005,
+      "span": 0.01,
+      "rate_c_min": 0.2,
+      "rate_change_c_min": 0.1
+    },
+    "weights": {
+      "d50_terminal": 8.0,
+      "yield_terminal": 0.01,
+      "span_terminal": 2.0,
+      "move": 0.1,
+      "smooth": 0.5,
+      "training_domain": 25.0,
+      "span_excess": 10.0
+    },
+    "empirical_nodes": [
+      [
+        0,
+        60
+      ],
+      [
+        10,
+        57.77777777777778
+      ],
+      [
+        60,
+        52
+      ],
+      [
+        120,
+        38
+      ],
+      [
+        180,
+        20
+      ]
+    ]
+  },
+  "summary": {
+    "objective": 142.4021680768566,
+    "components": {
+      "d50": 9.31662632994931e-05,
+      "yield_term": 0.023366882665583243,
+      "span": 142.1221150679427,
+      "span_excess": 0.0,
+      "move": 0.2025003172591966,
+      "smooth": 0.05409264272583908,
+      "domain": 0.0
+    },
+    "feasible": true,
+    "valid": true,
+    "minimum_margin": -2.1316282072803006e-14,
+    "final_quality": [
+      0.1094167434167638,
+      0.4079052392001787,
+      582.6123466337627,
+      897.7281475797037,
+      1220.5474620840312,
+      0.7106105753397135
+    ],
+    "max_mass_error": 1.4870867300302088e-16
+  },
+  "source_sha256": "da525759d3ac4eb41d317285b8dc3c742b88826fe148f5fd75f8513e63efc8cc"
+}

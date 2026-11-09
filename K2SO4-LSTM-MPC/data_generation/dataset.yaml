@@ -1,0 +1,155 @@
+schema_version: 1
+design_revision: 2
+seed: 20260929
+pbm_source: ../physics
+pbm_config: ../configs/pbm.yaml
+output_root: ../outputs/datasets
+batch_minutes: 180
+sample_seconds: 60
+families:
+- piecewise
+- hold
+- local_reheat
+counts:
+  smoke:
+    train: 1
+    validation: 1
+    test: 1
+  pilot:
+    train: 30
+    validation: 10
+    test: 10
+  formal:
+    train: 420
+    validation: 90
+    test: 90
+coverage:
+  temperature_c:
+  - 19.5
+  - 60.5
+  rate_c_min:
+  - -0.5
+  - 0.2
+  endpoint_c:
+  - 19.5
+  - 30.0
+  arrival_min:
+  - 100
+  - 180
+  knots: 8
+  short_segment_probability: 0.5
+  short_durations_min:
+  - 1
+  - 3
+  - 5
+  - 10
+initial:
+  temperature_c:
+  - 58.0
+  - 60.0
+  saturation:
+  - 1.0
+  - 1.02
+  seed_d50_um:
+  - 75.0
+  - 150.0
+  seed_sigma_g:
+  - 1.15
+  - 1.4
+  seed_mass_fraction:
+  - 0.005
+  - 0.02
+  nominal_every: 4
+branches:
+  origins_min:
+  - 0
+  - 3
+  - 10
+  - 20
+  - 30
+  - 60
+  - 80
+  - 100
+  - 120
+  - 140
+  - 160
+  - 170
+  - 179
+  strata_min:
+  - 0
+  - 30
+  - 120
+  - 180
+  origins_per_stratum: 2
+  horizon_steps: 10
+  offsets_c:
+  - 0.0
+  - -0.02
+  - 0.02
+  - -0.05
+  - 0.05
+  - -0.1
+  - 0.1
+  - -0.2
+  - 0.2
+  patterns:
+  - offset
+  - rate_block
+  - change_then_hold
+  durations_steps:
+  - 3
+  - 5
+  - 10
+  long_horizon_steps: 30
+  long_groups_per_parent: 1
+  terminal_every: 12
+  terminal_origins_min:
+  - 10
+  - 30
+  - 60
+  - 80
+quality:
+  mass_relative_tolerance: 1.0e-08
+  reproduction_relative_l1: 1.0e-09
+  schedule_attempts: 2000
+  require_positive_crystals: true
+  trajectory_attempts: 5
+  coverage:
+    temperature_edges:
+    - 19.5
+    - 20.0
+    - 25.0
+    - 30.0
+    - 40.0
+    - 50.0
+    - 60.0
+    - 60.5
+    saturation_edges:
+    - 0.9
+    - 1.0
+    - 1.005
+    - 1.01
+    - 1.02
+    - 1.05
+    - 1.1
+    - 1.2
+    rate_edges:
+    - -0.5
+    - -0.3
+    - -0.1
+    - -0.02
+    - 0.0
+    - 0.02
+    - 0.1
+    - 0.2
+    small_size_um: 20.0
+    large_size_um: 1000.0
+  numerical:
+    enabled: true
+    modes:
+    - smoke
+    - pilot
+    - formal
+    parents_per_family: 1
+    time_step_factor: 0.5
+    grid_factor: 2
